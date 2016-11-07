@@ -1,0 +1,41 @@
+/*head*/
+.lapiz{
+	display: inline-block;
+	margin-left: 450px;
+	font-size: 20px;
+	color: white
+}
+.titulo{
+	display:inline-block;
+	color: white;
+}
+.cajaHead{
+	background-color: #2828EF;
+}
+
+/*container 2*/
+#todo{
+	background-color: #6684D0;
+	height: 30px;
+}
+#cajaMadre{
+	background-color: #6684D0;
+	margin-top: -20px;
+}
+.sumar{
+	color: #DBF4FC;
+	margin-left: 50px;
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: 600;
+}
+/*boton*/
+.btnTrello{
+	width: 70px;
+	height: 30px;
+	border-radius: 5px;
+	background-color: #FDF45E;
+	display: block;
+	margin-left: 50px;
+
+}
