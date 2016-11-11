@@ -1,16 +1,17 @@
 /*head*/
 .lapiz{
 	display: inline-block;
-	margin-left: 450px;
-	font-size: 20px;
-	color: white
+	margin-left: 550px;
+	font-size: 50px;
+	color: white;
 }
 .titulo{
 	display:inline-block;
-	color: white;
+	color: #A5B1FC;
+	font-family: 'Knewave', cursive;
 }
 .cajaHead{
-	background-color: #2828EF;
+	background-color: #3347C0;
 }
 
 /*container 2*/
@@ -21,21 +22,31 @@
 #cajaMadre{
 	background-color: #6684D0;
 	margin-top: -20px;
+	height: 500px;
 }
 .sumar{
 	color: #DBF4FC;
-	margin-left: 50px;
+	margin-left: 45px;
 	padding-top: 10px;
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 600;
 }
 /*boton*/
 .btnTrello{
 	width: 70px;
 	height: 30px;
-	border-radius: 5px;
-	background-color: #FDF45E;
+	border-radius: 7px;
+	background-color: #BAD4EA;
 	display: block;
-	margin-left: 50px;
+	margin-left: 75px;
 
 }
+/*text area*/
+.meter{
+	border: 1px solid #2A4291;
+	border-radius: 8px;
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+

@@ -22,6 +22,8 @@ function aparecer(){
         //le voy a dar estilo al boton ???
         botonUno.setAttribute("type" , "btn-primary");
         botonUno.setAttribute("class" , "btnTrello");
+        //crear texto del boton
+        var textBoton= document.createTextNode("Guardar");
         //unir el input al div js
 
         //unir el boton a la caja js
@@ -30,5 +32,8 @@ function aparecer(){
         cajaJs.appendChild(botonUno);
         //unir la caja js al html
         cajaHtml.appendChild(cajaJs);
+
+        botonUno.appendChild(textBoton);
     //});
 }
+//2
