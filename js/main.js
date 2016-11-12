@@ -30,10 +30,36 @@ function aparecer(){
         
         cajaJs.appendChild(inputSegundo);
         cajaJs.appendChild(botonUno);
+        //se crea un span para usarlo como caja de las listas, unir un span aj div js
+        var spanL= document.createElement("espan");
+        cajaJs.appendChild(spanL);
         //unir la caja js al html
         cajaHtml.appendChild(cajaJs);
 
         botonUno.appendChild(textBoton);
+       //le doy a el boton una funcion llamada listaDos cuando se aprete el boton
+        botonUno.onclick= listaDos;
+        //la funcion saca lo que escribe el ususario y lo mete a un span que se creo arriba
+        function listaDos(){
+        var letras= inputSegundo.value;
+        var cajLetras= document.createTextNode(inputSegundo.value);
+        spanL.appendChild(cajLetras);
+        }
     //});
+        /*botonUno.addEventListener("click", function(event){
+        agregarTarea(this);
+        });
+
+        function agregarTarea(){
+    //saco lo que el usuario ingresa 
+    var contenido= inputSegundo.value;
+    //creo un contenedor en js `para meter el contenido
+    var boxUno= document.createElement("div");
+    boxUno.setAttribute("class" , "tit");
+    //introducrir el contenido al div
+    boxUno.appendChild(contenido);
+    cajaHtml.appendChild(boxUno);
+}*/
+
 }
-//2
+//2 cuando aprete guardar muestre lo ingresado titulo al lado
